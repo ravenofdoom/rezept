@@ -1,5 +1,30 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  background-image: url(./img/d36d462db827833805497d9ea78a1343.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: azure;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: larger;
 }
 
+.rezept_zutaten {
+  display: flex;
+  align-content: center;
+  border: 2px solid whitesmoke;
+  margin-top: 40px;
+  padding: 30px;
+}
+
+.rezept_zubereitung {
+  display: flex;
+  align-content: center;
+  border: 2px solid whitesmoke;
+  margin-top: 200px;
+  padding: 30px;
+}
+h1 {
+  text-align: center;
+}
